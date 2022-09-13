@@ -5,7 +5,6 @@ function AnimalContanier({animals}){
     const animalsArray = animals.map((animal)=><AnimalCard key={animal.id} animal={animal}/>)
 
     return(
-      
       <main>
         <ul className="cards">
           {animalsArray}
