@@ -10,8 +10,6 @@ function App(){
         .then((animals)=>setAnimals(animals))
     },[])
 
-   console.log(animals)
-
     if(!animals) return <p>Loading...</p>
   
 
