@@ -20,7 +20,7 @@ function App(){
            <AnimalContanier animals={animals}/>
         </div>
     )
-
+    
 }
 
 export default App
