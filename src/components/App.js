@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from "react";
 import AnimalContanier from "./AnimalContanier"
+import Header from "./Header";
 
 function App(){
     const [animals, setAnimals]=useState([])
@@ -9,12 +10,12 @@ function App(){
         .then((resp)=>resp.json())
         .then((animals)=>setAnimals(animals))
     },[])
-
-    if(!animals) return <p>Loading...</p>
   
-
     return (
-        <div className="app">
+        <div className="app" style={{
+            backgroundImage: `url(https://www.dallaszoo.com/wp-content/themes/dallaszoo/resources/images/bg-light_giraffe.png)`
+        }}>
+            <Header/>
            <AnimalContanier animals={animals}/>
         </div>
     )

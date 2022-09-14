@@ -14,7 +14,7 @@
         "diet": "Fruit, leaves, and invertebrates",
         "geo_range": "Southeast Asia",
         "image_link": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Nomascus_gabriellae_25.JPG",
-        "id": 46
+        "id": 1
       },
       {
         "name": "Siamang",
@@ -30,7 +30,7 @@
         "diet": "Primarily fruit and leaves, some invertebrates",
         "geo_range": "Malaysia and Sumatra",
         "image_link": "https://upload.wikimedia.org/wikipedia/commons/a/a4/DPPP_5348.jpg",
-        "id": 162
+        "id": 2
       },
       {
         "name": "Malayan Tiger",
@@ -46,7 +46,7 @@
         "diet": "Deer, wild pigs, and cattle",
         "geo_range": "Malaysia and southern Thailand",
         "image_link": "https://upload.wikimedia.org/wikipedia/commons/6/62/MalayanTiger01.jpg",
-        "id": 113
+        "id": 3
       },
       {
         "name": "Masked Lapwing",
@@ -62,7 +62,7 @@
         "diet": "Worms and insects",
         "geo_range": "Australia, New Zealand and Papua New Guinea",
         "image_link": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Prague_07-2016_Zoo_img02_Vanellus_miles.jpg",
-        "id": 115
+        "id": 4
       },
       {
         "name": "Pallas's Cat",
@@ -78,7 +78,7 @@
         "diet": "Pikas, hares, and small rodents such as gerbils, voles, and young marmots",
         "geo_range": "Central Asia",
         "image_link": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Manoel.jpg",
-        "id": 131
+        "id": 5
       },
       {
         "name": "Screaming Hairy Armadillo",
@@ -94,7 +94,7 @@
         "diet": "Plants, insects, and other small animals",
         "geo_range": "Central South America",
         "image_link": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Chaetophractus_vellerosus3.jpg",
-        "id": 160
+        "id": 6
       },
       {
         "name": "Florida Manatee",
@@ -110,7 +110,7 @@
         "diet": "Aquatic plants",
         "geo_range": "Southeastern United States",
         "image_link": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Manatee_at_Sea_World_Orlando_Mar_10.JPG",
-        "id": 72
+        "id": 7
       },
       {
         "name": "King Cobra",
@@ -126,7 +126,7 @@
         "diet": "Lizards and snakes, including venomous species",
         "geo_range": "Southeastern Asia and the Philippines",
         "image_link": "https://upload.wikimedia.org/wikipedia/commons/4/4d/12_-_The_Mystical_King_Cobra_and_Coffee_Forests.jpg",
-        "id": 98
+        "id": 8
       },
       {
         "name": "Little Blue Penguin",
@@ -142,7 +142,7 @@
         "diet": "Fish and marine invertebrates",
         "geo_range": "Australia and New Zealand",
         "image_link": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Little_Penguin_Feb09.jpg",
-        "id": 106
+        "id": 9
       },
       {
         "name": "Longnose Gar",
@@ -158,7 +158,7 @@
         "diet": "Small fish",
         "geo_range": "North America east of the Mississippi River",
         "image_link": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Longnose_gar%2C_Boston_Aquarium.JPG",
-        "id": 108
-      },
+        "id": 10
+      }
     ]
   }
