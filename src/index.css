@@ -1,5 +1,6 @@
 body {
   font-family: "Playfair Display", serif;
+  text-align: center;
 }
 
 * {
@@ -35,6 +36,57 @@ header h1 {
   padding-left: 10px;
 }
 
+.link {
+  border-radius: 5px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 13px;
+  font-weight: normal;
+  padding: 5px 11px;
+  
+}
 
+input {
+  margin: 5px;
+  padding: 12px 20px;
+  border: none;
+  font-family: inherit;
+  font-size: 1.2em;
+  border-bottom: 2px solid gray;
+  box-sizing: border-box;
+  transition: all 0.2s;
+  width: 100%;
+  border-radius: 5px;
+}
 
+input:focus {
+  outline: none;
+  border-bottom: 2px solid var(--green);
+}
 
+.new-animal-form{
+  width: 500px;
+  padding:20px;
+  display: inline-block;
+}
+
+#btn{
+  margin: 10px;
+}
+
+.note{
+  text-align: center;
+  font-size:x-large;
+  margin-bottom: 50px;
+}
+
+.prompt{
+  margin: 5px;
+  width: 500px;
+  
+}
+
+#searcher{
+  margin: 5px;
+}

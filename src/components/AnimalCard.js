@@ -1,6 +1,7 @@
 import React, {useState}from "react"
 
 function AnimalCard({animal}){
+
     // const [isHovering, setIsHovering] = useState(false)
 
     // const handleMouseOver = () => {
@@ -14,9 +15,9 @@ function AnimalCard({animal}){
 
     return (
 
-        <div class="card">
+        <div className="card">
             <img src={animal.image_link} alt="Animal photo" width="500" height="400"/>
-            <div class="info">
+            <div className="info">
                 {/* {isHovering&&<><h2>Name: {animal.name} | Latin Name: {animal.latin_name}</h2>
                 <h3>Animal Type: {animal.animal_type}</h3>
                 <h3>Lifespan: {animal.lifespan} yr</h3>
