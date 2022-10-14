@@ -143,22 +143,6 @@
       "geo_range": "Australia and New Zealand",
       "image_link": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Little_Penguin_Feb09.jpg",
       "id": 9
-    },
-    {
-      "name": "Longnose Gar",
-      "latin_name": "Lepisosteus osseus",
-      "animal_type": "Fish",
-      "active_time": "Nocturnal",
-      "length_min": "2",
-      "length_max": "6",
-      "weight_min": "1.1",
-      "weight_max": "7.7",
-      "lifespan": "20",
-      "habitat": "Rivers, lakes, reserviors and estuaries",
-      "diet": "Small fish",
-      "geo_range": "North America east of the Mississippi River",
-      "image_link": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Longnose_gar%2C_Boston_Aquarium.JPG",
-      "id": 10
     }
   ]
 }

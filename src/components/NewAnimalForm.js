@@ -25,7 +25,6 @@ function NewAnimalForm({handleAddAnimal}){
     }
     return (
         <>
-        <p class="note">help to add new aniamls</p>
         <div className="new-animal-form">
             <h2>New Animal</h2>
             <form onSubmit={handleSubmit}>
