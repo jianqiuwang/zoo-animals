@@ -34,30 +34,24 @@ function NewContanier(){
     
     // const filterArray= newAnimals.filter((newAnimal)=>newAnimal.lifespan>40)
 
-    const filterArray= newAnimals.filter((newAnimal)=>{
-      if(newAnimal.lifespan>40) return true
-    })
+    const filterArray= newAnimals.filter((newAnimal)=> newAnimal.lifespan<25)
+    
     
    
   function handleClick(){
-    console.log()
+    console.log(allAnimals)
+    console.log(filterArray)
     if (!clicked ){
+      setNewAnimals(allAnimals) 
+      console.log("newAnimals", newAnimals)}
+      
+      else {setNewAnimals(filterArray)
+        console.log("filtered",newAnimals)}
       setClicked(!clicked)
-      setNewAnimals(filterArray)
-    }else{
-      setClicked(!clicked)
-      setNewAnimals(allAnimals)
-      console.log(allAnimals)
-    }
   }
-
-  // function handleAnotherClick(){
-  //   console.log(newAnimals)
-  // }
     return(
       <main>
-        <button onClick={()=>handleClick()}>lifespan greater 40 yr</button>
-        {/* <button onClick={()=>handleAnotherClick()}>reset</button> */}
+        <button onClick={()=>handleClick()}>lifespan less 25 yr</button>
         <p className="note">Animals that we currently have in zoo</p>
         {newAnimalsArray}
       </main>

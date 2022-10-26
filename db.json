@@ -143,6 +143,22 @@
       "geo_range": "Australia and New Zealand",
       "image_link": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Little_Penguin_Feb09.jpg",
       "id": 9
-    }
+    },
+
+    {
+      "name":"Greater Bushbaby",
+      "latin_name":"Otolemur garnetti",
+      "animal_type":"Mammal",
+      "active_time":"Nocturnal",
+      "length_min":"0.75",
+      "length_max":"0.83",
+      "weight_min":"1.5",
+      "weight_max":"1.8",
+      "lifespan":"14",
+      "habitat":"Forest",
+      "diet":"Fruit and insects",
+      "geo_range":"Eastern Africa",
+      "image_link":"https://upload.wikimedia.org/wikipedia/commons/d/de/Garnett%27s_Galago_%28Greater_Bushbaby%29.jpg",
+      "id":10}
   ]
 }
